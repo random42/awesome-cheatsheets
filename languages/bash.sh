@@ -270,7 +270,7 @@ file1 -ot file2           # file1 is older than file2
 -gt                       # greater than
 -ne                       # not equal
 
-if condition
+if condition;
 then
   statements
 [elif condition
@@ -279,17 +279,17 @@ then
   statements]
 fi
 
-for x in {1..10}
+for x in {1..10};
 do
   statements
 done
 
-for name [in list]
+for name [in list];
 do
   statements that can use $name
 done
 
-for (( initialisation ; ending condition ; update ))
+for (( initialisation ; ending condition ; update ));
 do
   statements...
 done
